@@ -26,3 +26,38 @@ Meeting Agenda templates (located in the `/docs` directory in this repo):
 - Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
 - Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
 - Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+
+## Getting Started (Next.JS)
+
+To set up and run the Next.js project locally, follow these steps:
+
+## Prerequisites
+
+Make sure you have Node.js and npm installed on your machine. You can download them [Nodejs](https://nodejs.org/).
+
+## Using NVM (Node Version Manager)
+
+To manage Node.js versions easily, it's recommended to use NVM. If you don't have NVM installed, follow these steps:
+
+## Install NVM
+
+#### Mac OS
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+#### Windows
+https://github.com/coreybutler/nvm-windows/releases
+
+## Install project dependencies
+
+```
+npm install
+```
+
+## Run the Development Server
+
+```
+npm run dev
+```
+This will launch the application locally, and you can access it in your browser at http://localhost:3000.
