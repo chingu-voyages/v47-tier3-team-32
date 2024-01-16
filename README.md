@@ -26,3 +26,30 @@ Meeting Agenda templates (located in the `/docs` directory in this repo):
 - Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
 - Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
 - Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+
+## Using Docker with Next.js
+
+If you prefer to run your Next.js application inside a Docker container, follow the steps below.
+
+### Prerequisites
+
+Make sure you have Docker installed on your machine. You can download it [here](https://www.docker.com/get-started).
+
+### Building the Docker Image
+
+To build the Docker image for the Next.js frontend, run the following command in the project root:
+
+```
+docker build -t voyage-tasks-nextjs .
+```
+This command creates a Docker image named voyage-tasks-nextjs based on your project configuration.
+
+### Running the Docker Container
+Once the Docker image is built, you can run the container using the following command:
+
+```
+docker run -p 3000:3000 voyage-tasks-nextjs
+```
+This command starts a Docker container based on the voyage-tasks-nextjs image and maps port 3000 on your machine to port 3000 inside the container. Adjust the port mapping (-p) as needed.
+
+The Next.js application will be accessible at http://localhost:3000.
