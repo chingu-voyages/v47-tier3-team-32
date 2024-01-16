@@ -88,4 +88,3 @@ docker run -p 3000:3000 voyage-tasks-nextjs
 This command starts a Docker container based on the voyage-tasks-nextjs image and maps port 3000 on your machine to port 3000 inside the container. Adjust the port mapping (-p) as needed.
 
 The Next.js application will be accessible at http://localhost:3000.
-=======
