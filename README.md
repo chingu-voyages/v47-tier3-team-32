@@ -53,3 +53,38 @@ docker run -p 3000:3000 voyage-tasks-nextjs
 This command starts a Docker container based on the voyage-tasks-nextjs image and maps port 3000 on your machine to port 3000 inside the container. Adjust the port mapping (-p) as needed.
 
 The Next.js application will be accessible at http://localhost:3000.
+=======
+## Getting Started (Next.JS)
+
+To set up and run the Next.js project locally, follow these steps:
+
+## Prerequisites
+
+Make sure you have Node.js and npm installed on your machine. You can download them [Nodejs](https://nodejs.org/).
+
+## Using NVM (Node Version Manager)
+
+To manage Node.js versions easily, it's recommended to use NVM. If you don't have NVM installed, follow these steps:
+
+## Install NVM
+
+#### Mac OS
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+#### Windows
+https://github.com/coreybutler/nvm-windows/releases
+
+## Install project dependencies
+
+```
+npm install
+```
+
+## Run the Development Server
+
+```
+npm run dev
+```
+This will launch the application locally, and you can access it in your browser at http://localhost:3000.
